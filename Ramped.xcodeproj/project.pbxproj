@@ -13,6 +13,7 @@
 		7B2E3C3D200E78AB00BA1894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2E3C3B200E78AB00BA1894 /* Main.storyboard */; };
 		7B2E3C3F200E78AB00BA1894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2E3C3E200E78AB00BA1894 /* Assets.xcassets */; };
 		7B2E3C42200E78AB00BA1894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2E3C40200E78AB00BA1894 /* LaunchScreen.storyboard */; };
+		7B57D1F420165FA2003B73D8 /* Ramp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B57D1F320165FA2003B73D8 /* Ramp.swift */; };
 		7B618768200FB71C00BE1F03 /* RampPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B618767200FB71C00BE1F03 /* RampPickerVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		7B2E3C3E200E78AB00BA1894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B2E3C41200E78AB00BA1894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2E3C43200E78AB00BA1894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B57D1F320165FA2003B73D8 /* Ramp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ramp.swift; sourceTree = "<group>"; };
 		7B618767200FB71C00BE1F03 /* RampPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPickerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 		7B2E3C66200E868E00BA1894 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B57D1F320165FA2003B73D8 /* Ramp.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2E3C3A200E78AB00BA1894 /* RampPlacerVC.swift in Sources */,
+				7B57D1F420165FA2003B73D8 /* Ramp.swift in Sources */,
 				7B618768200FB71C00BE1F03 /* RampPickerVC.swift in Sources */,
 				7B2E3C36200E78AB00BA1894 /* AppDelegate.swift in Sources */,
 			);
